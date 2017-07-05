@@ -5,13 +5,9 @@ html, body {
     height: 100%;
     padding: 0;
     margin: 0;
-}
-
-img {
-    width: 100%;
-    height: auto;
-    opacity: 0.4;
-    filter: alpha(opacity=40);
+    background-color:black;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 
 nav {
@@ -23,9 +19,12 @@ nav {
 }
 
 .background-image {
+
     background: url('images/background-picture.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 
 .bar-titles {
@@ -42,14 +41,29 @@ nav {
 }
 
 h1 {
-    color: darkblue;
+    color:white;
     font-size: 60px;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0px;
 }
 
 h3 {
-    opacity: 0.4;
-    font-family: 'Open Sans', sans-serif;
-    color: darkblue;
+    font-size:22px;
+    opacity: 0.7;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    color: white;
 }
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
