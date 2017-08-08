@@ -1,8 +1,9 @@
 /*Ai grija la best-practiceuri: folosim clase, cautam pe google, nu copiem fara sa intelegem, avem grija la specificitate*/
 
-html, body {
+html,
+body {
     
-    background-color:black;
+    background-color: black;
     font-family: 'Open Sans', sans-serif;
     height: 100%;
     margin: 0;       
@@ -10,73 +11,11 @@ html, body {
     width: 100%;
 }
 
-.header .container {
-
-    align-content: space-between;
-    display: flex;
-    width: 100%;
-}
-
-.header {
-    
-    background-color: black;
-    display: flex;
-    height: 110px;
-    position: fixed;
-    width: 100%;
-    z-index: 5;
-}
-    
-nav {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    padding: 30px;
-    width: 100%;
-
-}
-
-.title{
-    font-size: 28px;
-}
-
-.background-image {
-
-    background: url('images/background-picture.jpg') no-repeat center center fixed;
-    background-size: cover;
-    filter: alpha(opacity=50);
-    height: 100%;
-    opacity: 0.5;
-
-}
-
-li{
-    color: white;
-    display: flex;
-    float:right;
-    height: 90px;   
-    margin:15px;
-    margin-top:10px;
-    text-decoration: none;
-}
-
-.bar-titles {
-    color: white;
-    display: flex;
-    float:right;
-    height: 90px;   
-    margin:15px;
-    margin-top:10px;
-    text-decoration: none;
-
-}
-
-.text-father {
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
+input,
+select,
+textarea,
+button {
+    font-family: inherit;
 
 }
 
@@ -84,7 +23,6 @@ h1 {
     color:white;
     font-size: 60px;
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
     margin-bottom: 0px;
 }
 
@@ -97,6 +35,59 @@ h3 {
     opacity: 0.7;
 
 }
+    
+nav {
+    background-color: black;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    justify-content: space-between;
+    padding: 30px;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+
+    
+}
+
+.background-image {
+
+    background: url('images/background-picture.jpg') no-repeat center center fixed;
+    background-color: black;
+    background-size: cover;
+    filter: alpha(opacity=50);
+    height: 100%;
+    opacity: 0.5;
+
+}
+
+.bar-titles {
+    
+    margin:5px;
+    color:white;
+    text-decoration: none;
+
+
+}
+
+.container{
+    align-items:center;
+}
+.text-father {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+}
+
+.title{
+    font-size: 28px;
+}
+
 
 .button {
 
@@ -106,8 +97,8 @@ h3 {
     color: white;
     cursor: pointer;
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
     margin-top: 20px;
     padding: 15px 32px;
     text-align: center;
+}
 
