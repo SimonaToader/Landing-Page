@@ -64,9 +64,7 @@ nav {
 
 }
 
-.menu{
-    size:10px;
-}
+
 .bar-titles {
     
     margin:5px;
@@ -79,16 +77,54 @@ nav {
         display: none;
     }
 
-
+}
 
 @media only screen and (max-width: 500px) {
     img {
     width:10%;
     }
 
+}
 
+@media only screen and (min-width: 499px) {
+    img {
+        display: none;
+    }
+}
 
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+}
 
+@media only screen and (max-width: 500px) {
+    h3 {
+        font-size: 18px;
+        margin-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    label.title {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    button.button {
+            font-size: 14px;
+            margin-top: 16px;
+            padding: 12px 29px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .text-father {
+        width:80%;
+    }
+}
 
 .container{
     align-items:center;
